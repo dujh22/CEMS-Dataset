@@ -66,7 +66,7 @@ def calculate_ratio_for_json_lines(infile):
 # calculate_ratio_for_json_lines("F:\\code\\github\\ce\\glm_filter_saved_data_generate_concurrent_merge_modify_choice_removespace_noExam\\target_file_gpt3point5turbo22_removespace_noExam.jsonl")
 
 if __name__ == '__main__':
-    input_dir = "F://code//github//ce//data_has_batch_has_generate_has_modify_has_extract_choice"
+    input_dir = "F://code//github//ce//data_has_batch_has_generate_has_extract_has_modify_merge_choice"
     
     # 遍历输入目录中的所有jsonl文件
     for file_name in os.listdir(input_dir):

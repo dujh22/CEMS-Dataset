@@ -4,7 +4,6 @@ from tqdm import tqdm
 import os
 from concurrent.futures import ThreadPoolExecutor
 import re
-from data_remove_spaces import replace_spaces
 import config
 
 # GPT API密钥和基本URL
@@ -20,7 +19,6 @@ openai.api_base = base_url
 
 def find_chinese_texts_and_sentences(text):
     # 初始化变量
-    sentences_with_chinese = []
     current_sentence = ""
     chinese_texts_and_sentences = []
 
@@ -158,8 +156,8 @@ def process_jsonl(input_file, output_file):
 # print(f"共计有{sum}个data")
 
 def main():
-    input_dir = 'F://code//github//ce//data_has_batch_has_generate'
-    output_dir = 'F://code//github//ce//data_has_batch_has_generate_has_modify'
+    input_dir = 'F://code//github//ce//data_has_batch_has_generate_has_extract'
+    output_dir = 'F://code//github//ce//data_has_batch_has_generate_has_extract_has_modify'
 
     # 确保输出目录存在
     if not os.path.exists(output_dir):

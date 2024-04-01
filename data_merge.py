@@ -33,4 +33,5 @@ def merge_data(source_folder, target_folder, target_file_name):
             writer.write(value)
 
 # 调用函数
-merge_data('F:\code\github\ce\glm_filter_saved_data_generate_concurrent_calibration', 'F:\code\github\ce\glm_filter_saved_data_generate_concurrent_merge', 'target_file.jsonl')
+# merge_data('F:\code\github\ce\glm_filter_saved_data_generate_concurrent_calibration', 'F:\code\github\ce\glm_filter_saved_data_generate_concurrent_merge', 'target_file.jsonl')
+merge_data('F://code//github//ce//data_has_batch_has_generate_has_extract_has_modify', 'F://code//github//ce//data_has_batch_has_generate_has_extract_has_modify_merge', 'target_file.jsonl')

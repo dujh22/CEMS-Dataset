@@ -40,8 +40,8 @@ def process_file(input_file, output_file=""):
 # process_file(input_file, output_file)
 
 def main():
-    input_dir = "F://code//github//ce//data_has_batch_has_generate_has_modify_has_extract"
-    output_dir = "F://code//github//ce//data_has_batch_has_generate_has_modify_has_extract_choice"
+    input_dir = "F://code//github//ce//data_has_batch_has_generate_has_extract_has_modify_merge"
+    output_dir = "F://code//github//ce//data_has_batch_has_generate_has_extract_has_modify_merge_choice"
 
     # 确保输出目录存在
     if not os.path.exists(output_dir):
@@ -53,10 +53,10 @@ def main():
             input_file_path = os.path.join(input_dir, file_name)
             output_file_path = os.path.join(output_dir, file_name)
 
-            # 如果输出文件已存在，则跳过处理
-            if os.path.exists(output_file_path):
-                print(f"{file_name} 已存在，跳过处理。")
-                continue
+            # # 如果输出文件已存在，则跳过处理
+            # if os.path.exists(output_file_path):
+            #     print(f"{file_name} 已存在，跳过处理。")
+            #     continue
 
             # 调用处理函数
             print(f"正在处理文件：{input_file_path}")

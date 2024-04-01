@@ -4,6 +4,10 @@ config.py
 # 忽略文件夹
 data_has_batch/
 data_has_batch_has_generate/
+data_has_batch_has_generate_has_extract/
+data_has_batch_has_generate_has_extract_has_modify/
+data_has_batch_has_generate_has_extract_has_modify_merge/
+data_has_batch_has_generate_has_extract_has_modify_merge_choice/
 data_wait_to_batch/
 filter_ce_data/
 filter_ce_data_split/

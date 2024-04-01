@@ -4,10 +4,11 @@ from tqdm import tqdm
 import os
 from concurrent.futures import ThreadPoolExecutor
 from CalculationOfTheOverlapRate import calculate_chinese_ratio, calculate_overlap_ratio
+import config
 
 # GPT API密钥和基本URL
-api_key = "sk-WKTbQOVHthXy0OOqAf5f95A70aB54dA18e062aD17a186619"
-base_url = "https://one-api.glm.ai/v1"
+api_key = config.GPT_API_KEY
+base_url = config.GPT_BASE_URL
 
 
 # 设定API密钥和基本URL
