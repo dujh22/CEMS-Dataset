@@ -1,0 +1,7 @@
+lxml
+pymongo
+pytz
+pandas
+pyarrow
+jsonlines
+openai

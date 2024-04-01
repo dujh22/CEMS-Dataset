@@ -1,0 +1,39 @@
+# 忽略配置文件
+config.py
+
+# 忽略文件夹
+data_has_batch/
+data_has_batch_has_generate/
+data_wait_to_batch/
+filter_ce_data/
+filter_ce_data_split/
+filter_ce_data_split_to_glm/
+filter_english_data/
+filter_english_data_split/
+filter_english_data_split_to_glm/
+filter_multi_ce_data/
+filter_multi_ce_data_split/
+filter_multi_ce_data_split_to_glm/
+filter_multi_english_data/
+filter_multi_english_data_split/
+filter_multi_english_data_split_to_glm/
+glm_filter_cleaned_data/
+glm_filter_saved_data/
+glm_filter_saved_data_generate/
+glm_filter_saved_data_generate_concurrent/
+glm_filter_saved_data_generate_concurrent_calibration/
+glm_filter_saved_data_generate_concurrent_merge/
+glm_filter_saved_data_generate_concurrent_merge_modify/
+glm_filter_saved_data_generate_concurrent_merge_modify_choice/
+glm_filter_saved_data_generate_concurrent_merge_modify_choice_removespace/
+glm_filter_saved_data_generate_concurrent_merge_modify_choice_removespace_noExam/
+glm_filter_saved_data_generate_gpt/
+glm_raw_data/
+glm_structure_data/
+gpt_filter_saved_data_generate/
+gpt_filter_saved_data_generate_concurrent/
+raw_data/
+standardized_data/
+
+# 忽略文件
+

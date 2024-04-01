@@ -1,0 +1,2 @@
+https://huggingface.co/datasets/openchat/openchat_sharegpt4_dataset/tree/main
+https://huggingface.co/datasets/abhinand/alpaca-gpt4-sharegpt/tree/main
