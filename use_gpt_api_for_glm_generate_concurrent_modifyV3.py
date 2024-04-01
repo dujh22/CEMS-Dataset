@@ -170,6 +170,11 @@ def main():
             input_file_path = os.path.join(input_dir, file_name)
             output_file_path = os.path.join(output_dir, file_name)
 
+            # 如果输出文件已存在，则跳过处理
+            if os.path.exists(output_file_path):
+                print(f"{file_name} 已存在，跳过处理。")
+                continue
+
             # 执行处理逻辑
             process_jsonl(input_file_path, output_file_path)
 
