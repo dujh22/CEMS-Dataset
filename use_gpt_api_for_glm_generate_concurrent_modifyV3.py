@@ -5,10 +5,11 @@ import os
 from concurrent.futures import ThreadPoolExecutor
 import re
 from data_remove_spaces import replace_spaces
+import config
 
 # GPT API密钥和基本URL
-api_key = "sk-WKTbQOVHthXy0OOqAf5f95A70aB54dA18e062aD17a186619"
-base_url = "https://one-api.glm.ai/v1"
+api_key = config.GPT_API_KEY
+base_url = config.GPT_BASE_URL
 
 promt1 = "Given "
 promt2 = ", translate it into English, returning {\"English texts\":\"\"}."
