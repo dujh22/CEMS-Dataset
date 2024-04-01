@@ -1,8 +1,8 @@
 # 适用版本 openai == 1.14.3
 from openai import OpenAI
+import config
 
-client = OpenAI(api_key="QGqhzEef29eGMA5buGB9JRrUdSweTCMe2Kcg4TGDdjGqwkJFLGW2h56Fccq86rYB",
-                base_url="https://api.chatglm.cn/v1")
+client = OpenAI(api_key=config.GLM_API_KEY, base_url=config.GLM_BASE_URL)
 
 stream = client.chat.completions.create(
     messages=[

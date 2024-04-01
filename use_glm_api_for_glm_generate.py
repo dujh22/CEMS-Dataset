@@ -2,10 +2,11 @@ import json
 from openai import OpenAI
 from tqdm import tqdm
 import os
+import config
 
 # GLM API密钥和基本URL
-api_key = "QGqhzEef29eGMA5buGB9JRrUdSweTCMe2Kcg4TGDdjGqwkJFLGW2h56Fccq86rYB"
-base_url = "https://api.chatglm.cn/v1"
+api_key = config.GLM_API_KEY
+base_url = config.GLM_BASE_URL
 
 # 初始化GLM客户端
 client = OpenAI(api_key=api_key, base_url=base_url)

@@ -3,11 +3,11 @@ import openai
 from tqdm import tqdm
 import os
 from concurrent.futures import ThreadPoolExecutor
+import config
 
 # GPT API密钥和基本URL
-api_key = "sk-**"
-base_url = "https://one-api.glm.ai/v1"
-
+api_key = config.GPT_API_KEY
+base_url = config.GPT_BASE_URL
 
 
 # 设定API密钥和基本URL
