@@ -29,7 +29,7 @@ glm_filter_saved_data_generate_concurrent_merge_modify_choice_removespace/
 glm_filter_saved_data_generate_concurrent_merge_modify_choice_removespace_noExam/
 glm_filter_saved_data_generate_gpt/
 glm_raw_data/
-glm_structure_data/
+glm_structured_data/
 gpt_filter_saved_data_generate/
 gpt_filter_saved_data_generate_concurrent/
 raw_data/
