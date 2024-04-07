@@ -69,7 +69,7 @@ def process_jsonl(input_file, output_file1, output_file2):
 
         for data in results:
             if data is not None:  # 只有当 data 不为 None 时才写入文件
-                json.dump(data, outfile, ensure_ascii=False)
+                # json.dump(data, outfile, ensure_ascii=False)
                 if data['version'] == 1:
                     outfile1.write(json.dumps(data, ensure_ascii=False) + '\n')
                 else:
