@@ -20,5 +20,3 @@ stream = client.chat.completions.create(
 
 for part in stream:
     print(part.choices[0].delta.content or "", end="", flush=True)
-
-print()
